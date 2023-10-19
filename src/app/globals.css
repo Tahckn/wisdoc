@@ -31,7 +31,7 @@
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
- 
+
     --radius: 0.5rem;
   }
  
@@ -73,4 +73,12 @@
   body {
     @apply bg-background text-foreground;
   }
+
+    h1,h2 {
+        @apply drop-shadow-md
+    }
+}
+
+.grainy {
+    background:#fdfefe url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwAgMAAAAqbBEUAAAACVBMVEUAAAD8/vz8+vw8AUo1AAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAVdJREFUKJEdUkGqxUAI85IJOHsHpvdR8O0t9JY/89tNRU1iUiMX+ocDIA1YqA1VLwxF4PHQxLI7ED5fpr/2ggeMOxk2J9xBsJZ29AQKGR63IHyGqTHub/ggE3C7y3EZkbQ6/0sqVtv9ilg+y9P0mcwKR/1MXaDvHAXgfeDeszYNveNs1Xg+68I7+LDXm5acJ0DmqNA1IZkfeh5z4PdFTJ6HxlEnQ90N0zQxO6XxZ+0lcIw4YUOdXUftTJPo3jyOaPFcoxrpC0dCI9tzpi6aeKI8M+czf+TMTwRRsBTdSFwcplXo+q1Tv3QLYfuFRsO0K93lfEnzzSvL+xdufgWLiOwyhcMiKfsoORl5RL3iWpUFf+PEupFIfSw5RNhOOeoYKlz7TZ++SZTkiLjzS8ynjtLDUm6jhKxyFu4rNlsyQifnkvfy7ejMkf9K+7L7GaHvNuofeh/IrYg/CH73iz6DFK0AAAAASUVORK5CYII=);
 }
